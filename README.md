@@ -45,13 +45,7 @@ Project Structure
     data/ – Input data files (if applicable)
     results/ – Output/results (if applicable)
 
-Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request for improvements or bug fixes.
-License
-
-Specify your license here (e.g., MIT, Apache 2.0).
-Contact
 
 For questions or feedback, open an issue or contact satya12345678-bot.
 
