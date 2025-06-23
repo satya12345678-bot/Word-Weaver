@@ -5,7 +5,7 @@ A personal Natural Language Processing (NLP) project implemented in Python. This
 ## Features
 
 - Text preprocessing (tokenization, stopword removal, etc.)
-- Text classification or sentiment analysis (describe your use case)
+- Text classification and sentiment analysis
 - Model training and evaluation
 - Customizable pipeline for additional NLP tasks
 
@@ -21,8 +21,8 @@ A personal Natural Language Processing (NLP) project implemented in Python. This
 Clone the repository:
 
 ```bash
-git clone https://github.com/satya12345678-bot/nlp-proj.git
-cd nlp-proj
+git clone https://github.com/satya12345678-bot/Word-Weaver.git
+cd Word-Weaver
 ```
 
 Install dependencies:
@@ -33,15 +33,40 @@ pip install -r requirements.txt
 
 ## Usage
 
-Update this section with specific instructions for running your code. For example:
+You can run the main script to perform text preprocessing and analysis. For example, to analyze an input text file and get sentiment classification results:
 
 ```bash
-python nlp_proj_code.py --input data/input.txt --output results/output.txt
+python nlp_proj_code.py --input data/input.txt --output results/output.txt --task sentiment
 ```
+
+- `--input`: Path to the input text file (one document per line).
+- `--output`: Path to the output file where results will be written.
+- `--task`: NLP task to perform (`sentiment`, `classification`, or `preprocess`).
 
 ## Example
 
-Describe a simple example use case here.
+Suppose you have an input file at `data/input.txt` with the following contents:
+
+```
+I love using NLP for text analysis!
+This product was terrible and I will not recommend it.
+```
+
+Run the following command:
+
+```bash
+python nlp_proj_code.py --input data/input.txt --output results/output.txt --task sentiment
+```
+
+The output file at `results/output.txt` might look like:
+
+```
+Input: I love using NLP for text analysis!
+Sentiment: Positive
+
+Input: This product was terrible and I will not recommend it.
+Sentiment: Negative
+```
 
 ## Project Structure
 
