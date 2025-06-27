@@ -71,7 +71,7 @@ Sentiment: Negative
 ## Project Structure
 
 - `nlp_proj_code.py` – Main code file implementing NLP functionalities
-- `requirements.txt` – Python dependencies
+- `requirements.txt` – Python dependencies required
 - `data/` – Input data files (if applicable)
 - `results/` – Output/results (if applicable)
 
